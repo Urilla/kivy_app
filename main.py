@@ -9,6 +9,7 @@ class Container(BoxLayout):
             app = App.get_running_app()
             app.root.ids['my_image'].source = 'heart.png'
             self.label_widget.text = 'ОЧЕНЬ СИЛЬНО ЛЮБЛЮ!! '
+
 class MyApp(App):
     def build(self):
         return Container()
