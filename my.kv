@@ -1,0 +1,18 @@
+<Container>:
+    padding:50
+    label_widget: label
+    orientation: "vertical"
+    Image:
+        id: my_image
+        source: 'cats.png'
+        y: self.parent.y + self.parent.height - 250
+        x: self.parent.x
+        size: 250, 250
+        allow_stretch: True
+    Label:
+        id: label
+        text: "Пуся я люблю тебя"
+        font_size:30
+    Button:
+        text: "Нажимай!"
+        on_release: root.change_image()
