@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = Пуся
+title = Mobile App 001
 
 # (str) Package name
 package.name = mobileapp001
